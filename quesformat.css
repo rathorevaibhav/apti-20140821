@@ -1,0 +1,48 @@
+h3.ques {
+   font-size:23px;
+   font-family:"Trebuchet MS", Helvetica, sans-serif;
+   
+}
+pre.ques {
+
+text-align: justify;
+font-size:22px;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+body {
+background-color: #F5FFFA;
+
+
+}
+
+table th,td {
+width: 20px;
+
+}
+input{
+
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+pre.welcome {
+padding-top: 5px;
+vertical-align: center;
+font-style:;
+font-size: 50px;
+color: #991111;	
+text-align: center;
+}
+
+td.line {
+text-align: justify;
+font-size:20px;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+.timer {
+text-align: center;
+color: #991111;
+font-size: 40px;
+font-weight: bold;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}

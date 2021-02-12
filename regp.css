@@ -1,0 +1,67 @@
+h1 {
+text-align: center;
+color: #991111;
+font-size: 40px;
+}
+pre.pre1 {
+
+text-align: center;
+font-size: 25px;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-weight: bold;
+}
+td {
+
+text-align: center;
+
+}
+
+th {
+font-size: 30px;
+color: white;
+
+}
+
+th.class1 {
+
+background-color: #00BFFF;
+
+}
+
+
+th.class2 {
+
+background-color: #6495ED;
+
+}
+
+body {
+background-color: #F5FFFA;
+
+
+}
+table {
+
+border-collapse: collapse;
+
+}
+
+table th,td {
+
+border: 1px solid #0D0D91;
+
+}
+input.type2 {
+width:250px;height:40px;font-size:20px;resize:horizontal;
+}
+input{
+
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+select {
+height: 40px;
+font-size: 20px;
+width: 100px;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}

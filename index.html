@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>WOCS Testing Portal</title>
+<link rel="stylesheet" type="text/css" href="css.css">
+<style>
+body{margin:0}
+</style>
+<script type="text/javascript">
+
+var message="NoRightClicking";
+function defeatIE() {if (document.all) {(message);return false;}}
+function defeatNS(e) {if 
+(document.layers||(document.getElementById&&!document.all)) {
+if (e.which==2||e.which==3) {(message);return false;}}}
+if (document.layers) 
+{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;}
+else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;}
+document.oncontextmenu=new Function("return false")
+</script>
+</head>
+<body>
+<div class="mainbody">
+
+<div class="top">
+
+</div>
+
+<div class="menu">
+<div id='cssmenu'>
+<ul>
+   <li class='active'><a href='index.html'><span>Home</span></a></li>
+   
+      <li class='has-sub'><a href=#>Online Test</a>
+      <ul>
+         <li class='has-sub'><a href='regp.php'><span>Aptitude</span></a>
+	
+               <li><a href='#'><span>Gate</span></a></li>
+            
+         
+      </ul>
+   </li>
+     <li class='has-sub'><a href='underconstruction.html'>Previous Tests</a></li>
+	  <li class='has-sub'><a href='underconstruction.html'>Results</a></li>
+      
+     <li class='has-sub'><a href='#'>Solutions</a>
+      <ul>
+         <li class='has-sub'><a href='underconstruction.html'><span>Aptitude</span></a></li>
+          
+               <li><a href='underconstruction.html'><span>Gate</span></a></li>
+              
+           
+        
+         
+      </ul>
+   </li>
+   <li><a href='underconstruction.html'><span>About</span></a></li>
+   <li class='last'><a href='underconstruction.html'><span>Contact</span></a></li>
+</ul>
+
+
+</div>
+
+</div>
+</div>
+</body>
+</html>
